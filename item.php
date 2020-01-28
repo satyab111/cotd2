@@ -144,7 +144,7 @@ cache: false
 			</div>
 
 	<div data-role="header" data-position="fixed" data-fullscreen="true" data-id="hdr" data-tap-toggle="false">
-		<?php echo "<h1> No. ".$_SESSION['item'][$itemno]['rank']." ".$_SESSION['item'][$itemno]['caption']."</h1>"; ?>
+		<?php echo "<h1> No Updated. ".$_SESSION['item'][$itemno]['rank']." ".$_SESSION['item'][$itemno]['caption']."</h1>"; ?>
 		<a href="index.php" data-ajax="false" data-direction="reverse" data-icon="home" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
 	  <a href="#help" data-rel="popup"  data-role="button" data-iconpos="notext" data-icon="alert" data-iconpos="left" data-mini="true"></a>
     </div><!-- /header -->
